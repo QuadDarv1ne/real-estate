@@ -1,0 +1,39 @@
+# Файлы и папки виртуального окружения
+venv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+
+# Файлы конфигурации
+*.env
+instance/
+config.py
+secret_key.py
+
+# Лог-файлы и временные файлы
+*.log
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.tmp
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Архивы и пакеты
+*.zip
+*.tar
+*.tar.gz
+
+# Сгенерированные статические файлы
+static/css/
+static/js/
